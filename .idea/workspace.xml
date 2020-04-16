@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d64a329-2197-49b0-8c92-f57b6cbae66f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array/array_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-416">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#83#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>uint</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>int</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/array/array_test.go" />
+        <option value="$PROJECT_DIR$/array/array.go" />
+        <option value="$PROJECT_DIR$/linkdelist/singlelinkedlist.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="10" />
+    <option name="width" value="1130" />
+    <option name="height" value="971" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+              <item name="linkdelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestArray_Find in algo/array">
+    <configuration name="BenchmarkArray_Find in algo/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/array" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="algo/array" />
+      <pattern value="^BenchmarkArray_Find$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArray_Delete in array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/array" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/array/array_test.go" />
+      <pattern value="^TestArray_Delete$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArray_Find in algo/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/array" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algo/array" />
+      <pattern value="^TestArray_Find$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestReversal in algo/linkdelist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/linkdelist" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algo/linkdelist" />
+      <pattern value="^TestReversal$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestArray_Find in algo/array" />
+        <item itemvalue="Go Test.TestReversal in algo/linkdelist" />
+        <item itemvalue="Go Test.BenchmarkArray_Find in algo/array" />
+        <item itemvalue="Go Test.TestArray_Delete in array_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestArray_Delete_in_array_test_go - 2020.04.16 at 17h 14m 25s.xml">
+      <configuration name="TestArray_Delete in array_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArray_Delete_in_array_test_go - 2020.04.16 at 17h 16m 14s.xml">
+      <configuration name="TestArray_Delete in array_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArray_Find_in_algo_array - 2020.04.16 at 17h 16m 23s.xml">
+      <configuration name="TestArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkArray_Find_in_algo_array - 2020.04.16 at 17h 16m 36s.xml">
+      <configuration name="BenchmarkArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestReversal_in_algo_linkdelist - 2020.04.16 at 17h 21m 32s.xml">
+      <configuration name="TestReversal in algo/linkdelist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestReversal_in_algo_linkdelist - 2020.04.16 at 17h 23m 09s.xml">
+      <configuration name="TestReversal in algo/linkdelist" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestArray_Find_in_algo_array - 2020.04.16 at 17h 23m 42s.xml">
+      <configuration name="TestArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37728938" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/array/array_test.go</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/array/array_test.go</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/array/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/array_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#83#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
