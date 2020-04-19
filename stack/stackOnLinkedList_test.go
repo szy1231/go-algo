@@ -1,14 +1,14 @@
 /*
-@Time : 2020/4/19 16:52
+@Time : 2020/4/19 18:40
 @Author : pasiyu
-@File : stackOnArray_test.go
+@File : stackOnLinkedList_test.go
 */
 package stack
 
 import "testing"
 
-func TestArrayStack_Print(t *testing.T) {
-	s := NewArrayStack()
+func TestLinkedListStack_Print(t *testing.T) {
+	s := NewLinkedListStack()
 	s.Push("a")
 	s.Push("b")
 	s.Push("c")

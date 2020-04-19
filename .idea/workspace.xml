@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d64a329-2197-49b0-8c92-f57b6cbae66f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/stackOnArray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/stackOnArray_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/stackOnLinkedList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/stackOnLinkedList_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/array_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkdelist/singlelinkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkdelist/singlelinkedlist.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkdelist/singlelinkedlist_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkdelist/singlelinkedlist_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/stackOnArray_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stackOnArray_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,41 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/array.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/array_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding>
-                <element signature="e#83#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack/stackOnArray_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stack/stackOnArray.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -109,12 +100,14 @@
         <option value="$PROJECT_DIR$/main/main.go" />
         <option value="$PROJECT_DIR$/stack/stackOnArray.go" />
         <option value="$PROJECT_DIR$/stack/stackOnArray_test.go" />
+        <option value="$PROJECT_DIR$/stack/stackOnLinkedList_test.go" />
+        <option value="$PROJECT_DIR$/stack/stackOnLinkedList.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-162" />
-    <option name="y" value="27" />
+    <option name="x" value="-284" />
+    <option name="y" value="49" />
     <option name="width" value="1304" />
     <option name="height" value="971" />
   </component>
@@ -131,6 +124,16 @@
             <path>
               <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+              <item name="linkdelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestArrayStack_Print in algo/stack">
+  <component name="RunManager" selected="Go Test.TestLinkedListStack_Print in algo/stack">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-algo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -181,15 +184,6 @@
       <filePath value="$PROJECT_DIR$/main/main.go" />
       <package value="algo" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkArray_Find in algo/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-algo" />
-      <working_directory value="$PROJECT_DIR$/array" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="algo/array" />
-      <pattern value="^BenchmarkArray_Find$" />
       <method v="2" />
     </configuration>
     <configuration name="TestArrayStack_Print in algo/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -210,6 +204,17 @@
       <kind value="PACKAGE" />
       <package value="algo/array" />
       <pattern value="^TestArray_Find$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLinkedListStack_Print in algo/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/stack" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algo/stack" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLinkedListStack_Print$" />
       <method v="2" />
     </configuration>
     <configuration name="TestReversal in algo/linkdelist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -234,24 +239,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLinkedListStack_Print in algo/stack" />
         <item itemvalue="Go Test.TestArrayStack_Print in algo/stack" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestArray_Find in algo/array" />
         <item itemvalue="Go Test.TestReversal in algo/linkdelist" />
-        <item itemvalue="Go Test.BenchmarkArray_Find in algo/array" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="BenchmarkArray_Find_in_algo_array - 2020.04.16 at 17h 16m 36s.xml">
-      <configuration name="BenchmarkArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestReversal_in_algo_linkdelist - 2020.04.16 at 17h 21m 32s.xml">
-      <configuration name="TestReversal in algo/linkdelist" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestReversal_in_algo_linkdelist - 2020.04.16 at 17h 23m 09s.xml">
-      <configuration name="TestReversal in algo/linkdelist" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestArray_Find_in_algo_array - 2020.04.16 at 17h 23m 42s.xml">
       <configuration name="TestArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -273,12 +269,22 @@
     <history-entry file="TestArrayStack_Print_in_algo_stack - 2020.04.19 at 16h 58m 12s.xml">
       <configuration name="TestArrayStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 41m 37s.xml">
+      <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 42m 21s.xml">
+      <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 43m 28s.xml">
+      <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16329831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -287,7 +293,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.489011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3901099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,6 +304,28 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29064748" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.15337424" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.3294964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -332,13 +360,6 @@
         <state relative-caret-position="-170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -348,32 +369,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array/array_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#83#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stack/stackOnArray.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="749">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stack/stackOnArray_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
