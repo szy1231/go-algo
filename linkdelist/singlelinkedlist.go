@@ -20,14 +20,17 @@ type LinkedList struct {
 	head   *ListNode
 	length uint
 }
+
 //创建一个新节点
 func NewListNode(v interface{}) *ListNode {
 	return &ListNode{nil, v}
 }
+
 //创建一个新链表
 func NewLinkedList() *LinkedList {
 	return &LinkedList{NewListNode(0), 0}
 }
+
 //获取值
 func (this *ListNode) GetValue() interface{} {
 	return this.value

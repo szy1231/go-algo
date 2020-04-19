@@ -12,7 +12,7 @@ import (
 
 /*
  数组的基本操作
- */
+*/
 
 type Array struct {
 	data   []int
