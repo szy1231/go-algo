@@ -6,14 +6,14 @@
 package queue
 
 type ArrayQueue struct {
-	q []interface{}  //数据
-	capacity int		//容量
-	head int			//出队列的下标
-	tail int			//进队列的下标
+	q        []interface{} //数据
+	capacity int           //容量
+	head     int           //出队列的下标
+	tail     int           //进队列的下标
 }
 
 func NewArrayQueue(n int) *ArrayQueue {
-	return &ArrayQueue{make([]interface{},n),n,0,0}
+	return &ArrayQueue{make([]interface{}, n), n, 0, 0}
 }
 
 func (this *ArrayQueue) Enqueue(v interface{}) bool {

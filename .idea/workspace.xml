@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d64a329-2197-49b0-8c92-f57b6cbae66f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/queue/queueOnArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorts/bubbleSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorts/bubbleSort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorts/insertSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorts/insertSort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,63 +17,38 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList.go">
+        <entry file="file://$PROJECT_DIR$/sorts/bubbleSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/net/http/server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/stackOnLinkedList_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/stackOnArray.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="222">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/queue/queueOnArray.go">
+        <entry file="file://$PROJECT_DIR$/sorts/insertSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="223">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/stackOnArray_test.go">
+        <entry file="file://$PROJECT_DIR$/sorts/insertSort_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorts/bubbleSort_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkdelist/singlelinkedlist_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170" />
           </provider>
         </entry>
       </file>
@@ -110,14 +88,18 @@
         <option value="$PROJECT_DIR$/stack/stackOnLinkedList_test.go" />
         <option value="$PROJECT_DIR$/stack/stackOnArray_test.go" />
         <option value="$PROJECT_DIR$/queue/queueOnArray.go" />
+        <option value="$PROJECT_DIR$/sorts/bubbleSort_test.go" />
+        <option value="$PROJECT_DIR$/sorts/bubbleSort.go" />
+        <option value="$PROJECT_DIR$/sorts/insertSort_test.go" />
+        <option value="$PROJECT_DIR$/sorts/insertSort.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="850" />
-    <option name="y" value="75" />
-    <option name="width" value="1130" />
-    <option name="height" value="971" />
+    <option name="x" value="22" />
+    <option name="y" value="52" />
+    <option name="width" value="1305" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,6 +114,11 @@
             <path>
               <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algo" type="462c0819:PsiDirectoryNode" />
+              <item name="sorts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestLinkedListStack_Print in algo/stack">
+  <component name="RunManager" selected="Go Test.TestInsertSort in algo/sorts">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-algo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -195,13 +182,26 @@
       <pattern value="^TestArrayStack_Print$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArray_Find in algo/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBubbleSort in algo/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-algo" />
-      <working_directory value="$PROJECT_DIR$/array" />
+      <working_directory value="$PROJECT_DIR$/sorts" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algo/array" />
-      <pattern value="^TestArray_Find$" />
+      <package value="algo/sorts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBubbleSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInsertSort in algo/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algo" />
+      <working_directory value="$PROJECT_DIR$/sorts" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="algo/sorts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestInsertSort$" />
       <method v="2" />
     </configuration>
     <configuration name="TestLinkedListStack_Print in algo/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -213,15 +213,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestLinkedListStack_Print$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestReversal in algo/linkdelist" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-algo" />
-      <working_directory value="$PROJECT_DIR$/linkdelist" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="algo/linkdelist" />
-      <pattern value="^TestReversal$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -237,51 +228,52 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestInsertSort in algo/sorts" />
+        <item itemvalue="Go Test.TestBubbleSort in algo/sorts" />
         <item itemvalue="Go Test.TestLinkedListStack_Print in algo/stack" />
         <item itemvalue="Go Test.TestArrayStack_Print in algo/stack" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestArray_Find in algo/array" />
-        <item itemvalue="Go Test.TestReversal in algo/linkdelist" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArray_Find_in_algo_array - 2020.04.16 at 17h 28m 46s.xml">
-      <configuration name="TestArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArray_Find_in_algo_array - 2020.04.19 at 16h 36m 52s.xml">
-      <configuration name="TestArray_Find in algo/array" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayStack_Print_in_algo_stack - 2020.04.19 at 16h 54m 02s.xml">
-      <configuration name="TestArrayStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayStack_Print_in_algo_stack - 2020.04.19 at 16h 56m 47s.xml">
-      <configuration name="TestArrayStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayStack_Print_in_algo_stack - 2020.04.19 at 16h 57m 17s.xml">
-      <configuration name="TestArrayStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestArrayStack_Print_in_algo_stack - 2020.04.19 at 16h 58m 12s.xml">
-      <configuration name="TestArrayStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 41m 37s.xml">
-      <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 42m 21s.xml">
-      <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 43m 28s.xml">
       <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestLinkedListStack_Print_in_algo_stack - 2020.04.19 at 18h 44m 50s.xml">
       <configuration name="TestLinkedListStack_Print in algo/stack" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestBubbleSort_in_algo_sorts - 2020.04.21 at 17h 30m 23s.xml">
+      <configuration name="TestBubbleSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBubbleSort_in_algo_sorts - 2020.04.21 at 17h 33m 11s.xml">
+      <configuration name="TestBubbleSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 28m 29s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 32m 01s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 32m 10s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 37m 42s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 40m 03s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 41m 27s.xml">
+      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12449475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18674211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -290,7 +282,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26190478" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33882785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,8 +417,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/queue/queueOnArray.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="204">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/bubbleSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/bubbleSort_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/insertSort_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorts/insertSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
