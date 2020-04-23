@@ -5,6 +5,7 @@
 */
 package sorts
 
+//插入排序
 func InsertSort(a []int) {
 	n := len(a)
 
