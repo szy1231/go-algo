@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d64a329-2197-49b0-8c92-f57b6cbae66f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sorts/mergeSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/mergeSort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/quickSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/quickSort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/selectSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorts/selectSort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarysearch/binarysearch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarysearch/binarysearch_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorts/bubbleSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/bubbleSort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorts/insertSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorts/insertSort.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +26,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorts/mergeSort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="-235">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorts/quickSort.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sorts/quickSort.go">
+        <entry file="file://$PROJECT_DIR$/binarysearch/binarysearch.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binarysearch/binarysearch_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -92,15 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorts/insertSort_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -143,18 +146,20 @@
         <option value="$PROJECT_DIR$/sorts/selectSort.go" />
         <option value="$PROJECT_DIR$/sorts/insertSort.go" />
         <option value="$PROJECT_DIR$/sorts/mergeSort_test.go" />
-        <option value="$PROJECT_DIR$/sorts/mergeSort.go" />
         <option value="$PROJECT_DIR$/sorts/bubbleSort.go" />
         <option value="$PROJECT_DIR$/sorts/quickSort_test.go" />
         <option value="$PROJECT_DIR$/sorts/quickSort.go" />
+        <option value="$PROJECT_DIR$/sorts/mergeSort.go" />
+        <option value="$PROJECT_DIR$/binarysearch/binarysearch.go" />
+        <option value="$PROJECT_DIR$/binarysearch/binarysearch_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-255" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="784" />
+    <option name="y" value="4" />
     <option name="width" value="1305" />
-    <option name="height" value="972" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,7 +177,7 @@
             <path>
               <item name="go-algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-algo" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="binarysearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestQuickSort in algo/sorts">
+  <component name="RunManager" selected="Go Test.TestBinarySearchCycle in algo/binarysearch">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-algo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -217,26 +222,26 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBubbleSort in algo/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinarySearch in algo/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-algo" />
-      <working_directory value="$PROJECT_DIR$/sorts" />
+      <working_directory value="$PROJECT_DIR$/binarysearch" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algo/sorts" />
+      <package value="algo/binarysearch" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBubbleSort$" />
+      <pattern value="^TestBinarySearch$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertSort in algo/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinarySearchCycle in algo/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-algo" />
-      <working_directory value="$PROJECT_DIR$/sorts" />
+      <working_directory value="$PROJECT_DIR$/binarysearch" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="algo/sorts" />
+      <package value="algo/binarysearch" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertSort$" />
+      <pattern value="^TestBinarySearchCycle$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMergeSort in algo/sorts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -285,30 +290,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinarySearchCycle in algo/binarysearch" />
+        <item itemvalue="Go Test.TestBinarySearch in algo/binarysearch" />
         <item itemvalue="Go Test.TestQuickSort in algo/sorts" />
         <item itemvalue="Go Test.TestMergeSort in algo/sorts" />
         <item itemvalue="Go Test.TestSelectSort in algo/sorts" />
-        <item itemvalue="Go Test.TestInsertSort in algo/sorts" />
-        <item itemvalue="Go Test.TestBubbleSort in algo/sorts" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 37m 42s.xml">
-      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 40m 03s.xml">
-      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 41m 27s.xml">
-      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestInsertSort_in_algo_sorts - 2020.04.21 at 22h 46m 40s.xml">
-      <configuration name="TestInsertSort in algo/sorts" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSelectSort_in_algo_sorts - 2020.04.22 at 16h 44m 27s.xml">
-      <configuration name="TestSelectSort in algo/sorts" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSelectSort_in_algo_sorts - 2020.04.22 at 16h 44m 41s.xml">
       <configuration name="TestSelectSort in algo/sorts" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -324,17 +314,32 @@
     <history-entry file="TestQuickSort_in_algo_sorts - 2020.04.23 at 16h 48m 18s.xml">
       <configuration name="TestQuickSort in algo/sorts" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestBinarySearch_in_algo_binarysearch - 2020.04.25 at 09h 49m 21s.xml">
+      <configuration name="TestBinarySearch in algo/binarysearch" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBinarySearch_in_algo_binarysearch - 2020.04.25 at 09h 49m 42s.xml">
+      <configuration name="TestBinarySearch in algo/binarysearch" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBinarySearch_in_algo_binarysearch - 2020.04.25 at 09h 50m 37s.xml">
+      <configuration name="TestBinarySearch in algo/binarysearch" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBinarySearchCycle_in_algo_binarysearch - 2020.04.25 at 10h 13m 39s.xml">
+      <configuration name="TestBinarySearchCycle in algo/binarysearch" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBinarySearchCycle_in_algo_binarysearch - 2020.04.25 at 10h 13m 54s.xml">
+      <configuration name="TestBinarySearchCycle in algo/binarysearch" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="523" y="3" width="870" height="656" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18997575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28940886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3791209" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41566265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,15 +548,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sorts/mergeSort.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="-235">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorts/quickSort.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="186">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarysearch/binarysearch_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarysearch/binarysearch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
