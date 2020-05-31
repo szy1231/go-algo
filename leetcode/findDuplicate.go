@@ -23,11 +23,11 @@ package leetcode
 //1.利用hash解法
 func findDuplicate_01(nums []int) int {
 	hash := map[int]struct{}{}
-	for _,v := range nums{
-		if _,ok := hash[v];ok {
+	for _, v := range nums {
+		if _, ok := hash[v]; ok {
 			return v
-		}else {
-			hash[v]= struct{}{}
+		} else {
+			hash[v] = struct{}{}
 		}
 	}
 	return -1
@@ -35,8 +35,8 @@ func findDuplicate_01(nums []int) int {
 
 //2.暴力破解法
 func findDuplicate_02(nums []int) int {
-	for k,v := range nums{
-		for j :=0;j< len(nums)&&j != k;j++{
+	for k, v := range nums {
+		for j := 0; j < len(nums) && j != k; j++ {
 			if v == nums[j] {
 				return v
 			}

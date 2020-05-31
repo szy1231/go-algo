@@ -32,9 +32,9 @@ func subarraysDivByK(A []int, K int) int {
 	hash := make(map[int]int)
 	hash[0] = 1
 	prefix := 0
-	for _,v := range A {
+	for _, v := range A {
 		prefix += v
-		modulus := prefix%K
+		modulus := prefix % K
 		if modulus < 0 {
 			modulus += K
 		}
