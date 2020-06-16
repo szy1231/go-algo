@@ -17,17 +17,17 @@ package leetcode
 func isAnagram(s string, t string) bool {
 	hash := map[rune]int{}
 
-	for _,v := range s {
+	for _, v := range s {
 		hash[v]++
 	}
-	for _,v := range t {
-		vs,ok := hash[v]
+	for _, v := range t {
+		vs, ok := hash[v]
 		if !ok {
 			return false
 		}
 		if vs == 1 {
-			delete(hash,v)
-		}else{
+			delete(hash, v)
+		} else {
 			hash[v]--
 		}
 	}
