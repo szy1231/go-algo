@@ -5,6 +5,7 @@
 */
 package queue
 
+
 type ArrayQueue struct {
 	q        []interface{} //数据
 	capacity int           //容量
