@@ -5,6 +5,7 @@
 */
 package binarysearch
 
+
 //递归实现
 func BinarySearch(a []int, value int) int {
 	if len(a) <= 0 {
