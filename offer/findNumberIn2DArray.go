@@ -32,40 +32,29 @@ package offer
 */
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 
-	//如果是空，则没有查找的意义，直接返回
-	if len(matrix) < 1 || len(matrix[0]) < 1 {
+	//m代表第一层切片的长度
+	m := len(matrix)
+	if m < 1 {
+		return false
+	}
+	//n代表第二层切片的长度
+	n := len(matrix[0])
+	//最后一行最后一列的元素都比他小，说明没有满足条件的元素
+	if n < 1 || matrix[m-1][n-1] < target {
 		return false
 	}
 
-	//确定行的范围
-	n := 0
-	i := 0
-	for ; n < len(matrix); n++ {
-		if matrix[n][0] < target {
-			if matrix[n][len(matrix[0])-1] < target {
-				i++
+	//遍历切片
+	for i := 0; i < m; i++ {
+		//如果这一行的第一个元素都比他大的话，后面肯定没有满足的元素
+		if target < matrix[i][0] {
+			return false
+		}
+		for j := 0; j < n; j++ {
+			//如果比这个切片第一个还小，或者比最后一个还大。说明这个切片中没有满足条件的，直接break
+			if target < matrix[i][j] || target > matrix[i][n-1] {
+				break
 			}
-			continue
-		}
-		if matrix[n][0] == target {
-			return true
-		}
-	}
-
-	//确定列的范围
-	l := 0
-	for ; l < len(matrix[0]); l++ {
-		if matrix[0][l] < target {
-			continue
-		}
-		if matrix[0][l] == target {
-			return true
-		}
-	}
-
-	//在列和行中查找
-	for ; i < n; i++ {
-		for j := 0; j < l; j++ {
 			if matrix[i][j] == target {
 				return true
 			}
