@@ -13,9 +13,9 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	hashMap := make(map[int]struct{})
 
 	res := head
-	var pre  *ListNode
+	var pre *ListNode
 	for head != nil {
-		if _,ok := hashMap[head.Val];ok{
+		if _, ok := hashMap[head.Val]; ok {
 			pre.Next = head.Next
 			head = head.Next
 			continue
@@ -27,7 +27,6 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 	return res
 }
-
 
 //删除有序列表中的重复元素
 //时间复杂度O(n)
