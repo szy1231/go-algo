@@ -26,7 +26,7 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
 		return head
 	}
 	bef := head
-	for ; k > 0 ; k-- {
+	for ; k > 0; k-- {
 		head = head.Next
 	}
 

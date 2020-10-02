@@ -5,7 +5,6 @@ package linkdeList
 7 6 5 4 3 2 1  ---->  1 2 3 4 5 6 7
 */
 
-
 type ListNode struct {
 	Val  int
 	Next *ListNode
